@@ -1,12 +1,21 @@
 html { padding:10px; }
 
 body {
-  border:0;
-  background:#fcfcfc;
   font-family:monospace;
   font-size:14px;
+  color:#898d94;
+  line-height:1.6em;
+  margin:0 auto;
   padding:10px;
-  line-height:1.35em;
-  margin:0;
-  padding:0;
+  max-width:800px;
+  border:1px dashed #898d94;
+}
+
+::selection {
+  background: #00b99e;
+  color:#fff;
+  }
+::-moz-selection {
+  background: #00b99e;
+  color:#fff;
 }
